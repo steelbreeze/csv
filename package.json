@@ -1,0 +1,35 @@
+{
+  "name": "@steelbreeze/csv",
+  "version": "1.0.0-alpha",
+  "description": "Tools for reading and writnig files formatted as CSV",
+  "main": "lib/node/index.js",
+  "module": "lib/node/index.js",
+  "typings": "lib/node/index.d.ts",
+  "directories": {
+    "lib": "lib/node",
+    "dist": "lib/web"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "webpack-cli": "^4.7.0",
+    "typedoc": "^0.20.36"
+  },
+  "scripts": {
+    "build": "tsc -p . && webpack && cp lib/web/*.js docs/dist",
+    "document": "typedoc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steelbreeze/csv.git"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "Mesmo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steelbreeze/csv/issues"
+  },
+  "homepage": "https://github.com/steelbreeze/csv#readme"
+}
