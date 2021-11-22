@@ -1,6 +1,6 @@
 {
   "name": "@steelbreeze/csv",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Tools for reading and writnig files formatted as CSV",
   "main": "lib/node/index.js",
   "module": "lib/node/index.js",
